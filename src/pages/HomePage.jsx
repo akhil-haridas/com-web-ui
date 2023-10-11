@@ -31,7 +31,7 @@ const HomePage = () => {
       <div className="fixed w-[50px] bg-green-400 h-[50px] bg-[#585965] bottom-3 flex items-center justify-center right-4 rounded-full">
         <i class="fa-brands fa-whatsapp" style={{ color: "#ffffff" }}></i>
       </div>
-      <Footer/>
+      {/* <Footer/> */}
     </>
   );
 };
