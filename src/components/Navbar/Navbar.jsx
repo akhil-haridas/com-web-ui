@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="fixed top-0 left-0 right-0 h-20 flex items-center justify-between px-4">
+      <div className="fixed top-0 left-0 z-10 right-0 h-20 backdrop-blur-[10px] lg:backdrop-blur-0 flex items-center justify-between px-4">
         <div className="flex items-center space-x-2">
           <div
             className="relative block px-7 cursor-pointer"
@@ -39,9 +39,7 @@ const Navbar = () => {
           </div>
           <p
             className={`hidden sm:block font-custom text-12 font-300 text-base hover:text-red-600 cursor-pointer ${
-              isHovered
-                ? "text-red-600"
-                : ""
+              isHovered ? "text-red-600" : ""
             }`}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
@@ -52,13 +50,15 @@ const Navbar = () => {
         </div>
         <div className="flex items-center space-x-2">
           <p className="font-custom font-bold">DG</p>
-          <p className="font-custom">Dignizant Technologies</p>
+          <p className="font-custom lg:text-[25px] text-[18px]">
+            Dignizant Technologies
+          </p>
         </div>
       </div>
 
       {isNavOpen && (
         <div
-          className="z-1 fixed top-0 left-0 w-full h-full bg-[#111223] flex flex-col items-center justify-center"
+          className="z-20 fixed top-0 left-0 w-full h-full bg-[#111223] flex flex-col items-center justify-center"
           id="navdiv"
         >
           <button

@@ -4,7 +4,7 @@ import SVG from "../../assets/svg/BG-2.svg";
 const About = () => {
   return (
     <div
-      className="w-full min-h-screen space-y-5 flex flex-col items-center justify-evenly text-white text-2xl bg-cover bg-bottom-[280px]"
+      className="w-full min-h-screen flex flex-col items-center justify-evenly text-white text-2xl bg-cover bg-bottom-[280px]"
       style={{ backgroundImage: `url("${SVG}")` }}
     >
       <div className="w-full h-full lg:h-1/3 flex flex-col pt-10 pb-10 lg:flex-row items-center justify-center">
@@ -32,92 +32,22 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className="w-full h-full lg:h-1/3 flex flex-col pt-20 lg:flex-row items-center justify-evenly">
-        <div className="card">
-          <div className="circle" style={{ color: "#f40103" }}>
-            <i
-              class="fa-solid fa-computer"
-              className="logo"
-              style={{ color: "#ffffff" }}
-            ></i>
-            <i class="fa-solid fa-mobile"></i>
-          </div>
-          <div className="content">
-            <h2>CocoCola</h2>
-            <p>
-              CocoCola is a refreshing beverage that quenches your thirst and
-              tantalizes your taste buds. <br />
-              Our secret blend of flavors.
-            </p>
-            <a href="#">Explore More</a>
-          </div>
-          <img
-            src="https://drive.google.com/uc?export=view&id=1ly_grxitjKviI85yrLUw-cznk1TGg2M2"
-            className="product_img"
-          />
-        </div>
-        <div className="card">
-          <div className="circle" style={{ color: "#f40103" }}>
-            <img
-              src="https://drive.google.com/uc?export=view&id=1m4XceTGeiuvdoEkiWQX4Il5nYtAH8tRw"
-              className="logo"
-            />
-          </div>
-          <div className="content">
-            <h2>CocoCola</h2>
-            <p>
-              CocoCola is a refreshing beverage that quenches your thirst and
-              tantalizes your taste buds. <br />
-              Our secret blend of flavors.
-            </p>
-          </div>
-          <img
-            src="https://drive.google.com/uc?export=view&id=1ly_grxitjKviI85yrLUw-cznk1TGg2M2"
-            className="product_img"
-          />
-        </div>
-        <div className="card">
-          <div className="circle" style={{ color: "#f40103" }}>
-            <img
-              src="https://drive.google.com/uc?export=view&id=1m4XceTGeiuvdoEkiWQX4Il5nYtAH8tRw"
-              className="logo"
-            />
-          </div>
-          <div className="content">
-            <h2>CocoCola</h2>
-            <p>
-              CocoCola is a refreshing beverage that quenches your thirst and
-              tantalizes your taste buds. <br />
-              Our secret blend of flavors.
-            </p>
-            <a href="#">Explore More</a>
-          </div>
-          <img
-            src="https://drive.google.com/uc?export=view&id=1ly_grxitjKviI85yrLUw-cznk1TGg2M2"
-            className="product_img"
-          />
-        </div>
-        <div className="card">
-          <div className="circle" style={{ color: "#f40103" }}>
-            <img
-              src="https://www.pngfind.com/pngs/m/170-1706361_web-development-icon-web-development-logo-png-transparent.png"
-              className="logo"
-            />
-          </div>
-          <div className="content">
-            <h2>CocoCola</h2>
-            <p>
-              CocoCola is a refreshing beverage that quenches your thirst and
-              tantalizes your taste buds. <br />
-              Our secret blend of flavors.
-            </p>
-            <a href="#">Explore More</a>
-          </div>
-          <img
-            src="https://drive.google.com/uc?export=view&id=1ly_grxitjKviI85yrLUw-cznk1TGg2M2"
-            className="product_img"
-          />
-        </div>
+      <div className="w-full h-full flex justify-center flex-col items-center space-y-5">
+        <p className="text-sm lg:text-lg text-rose-500 xl:text-xl 2xl:text-2xl tracking-wider font-semibold font-current">
+          HIRE US
+        </p>
+        <h1 className="text-xl lg:text-2xl pl-5 xl:text-3xl 2xl:text-4xl tracking-wider font-bold font-current">
+          WHY HIRE US DIGNIZANT FOR YOUR PROJECTS
+        </h1>
+        <p className="text-sm lg:text-base xl:text-lg 2xl:text-xl px-5 lg:px-20 tracking-wider font-thin font-current">
+          Are you looking for a reliable and experienced technology partner to
+          help you with your digital transformation project? Dignizant is the
+          right option. We provide industry-leading solutions to meet your
+          specific business objectives with our world-class expertise and
+          unparalleled services. We have a team of highly skilled and qualified
+          professionals who are experts in their field and are dedicated to
+          providing our clients with the best possible product.
+        </p>
       </div>
     </div>
   );

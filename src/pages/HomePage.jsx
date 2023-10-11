@@ -1,9 +1,12 @@
-import React from 'react'
-import Head from '../components/Head/Head'
-import Video from "../assets/video/BGV.mp4"
-import About from '../components/About/About';
-import Service from '../components/Service/Service';
-
+import React from "react";
+import Head from "../components/Head/Head";
+import Video from "../assets/video/BGV.mp4";
+import About from "../components/About/About";
+import Service from "../components/Service/Service";
+import Industry from "../components/Industry/Industry";
+import Technos from "../components/Technos/Technos";
+import Testimonial from "../components/Testimonials/Testimonial";
+import Footer from "../components/Footer/Footer";
 
 const HomePage = () => {
   return (
@@ -17,6 +20,10 @@ const HomePage = () => {
       <Head />
       <About />
       <Service />
+      <Industry />
+      <Technos />
+      <Testimonial />
+
       <div className="fixed w-[50px] h-[50px] bg-[#585965] bottom-3 flex items-center justify-center left-4 rounded-full">
         <i class="fa-solid fa-mobile" style={{ color: "#fcfcfd" }}></i>
       </div>
@@ -24,8 +31,9 @@ const HomePage = () => {
       <div className="fixed w-[50px] bg-green-400 h-[50px] bg-[#585965] bottom-3 flex items-center justify-center right-4 rounded-full">
         <i class="fa-brands fa-whatsapp" style={{ color: "#ffffff" }}></i>
       </div>
+      <Footer/>
     </>
   );
-}
+};
 
-export default HomePage
+export default HomePage;
