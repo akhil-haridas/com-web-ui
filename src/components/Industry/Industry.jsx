@@ -29,6 +29,7 @@ const Industry = () => {
           solutions available.
         </p>
       </div>
+      
     </div>
   );
 };

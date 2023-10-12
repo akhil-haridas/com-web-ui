@@ -92,6 +92,7 @@ const Lifeat = () => {
           ))}
         </div>
       )}
+      
     </div>
   );
 };

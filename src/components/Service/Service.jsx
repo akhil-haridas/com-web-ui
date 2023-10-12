@@ -49,6 +49,7 @@ const Service = () => {
           productImgSrc={UiUxDev}
         />
       </div>
+      
     </div>
   );
 }

@@ -96,6 +96,7 @@ const Technos = () => {
           ))}
         </div>
       </div>
+      
     </div>
   );
 };

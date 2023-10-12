@@ -23,9 +23,8 @@ const HomePage = () => {
       <Service />
       <Industry />
       <Technos />
-      <Lifeat/>
+      <Lifeat />
       <Testimonial />
-
       <div className="fixed w-[50px] h-[50px] bg-[#585965] bottom-3 flex items-center justify-center left-4 rounded-full">
         <i class="fa-solid fa-mobile" style={{ color: "#fcfcfd" }}></i>
       </div>
