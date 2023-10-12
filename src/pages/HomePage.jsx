@@ -6,7 +6,8 @@ import Service from "../components/Service/Service";
 import Industry from "../components/Industry/Industry";
 import Technos from "../components/Technos/Technos";
 import Testimonial from "../components/Testimonials/Testimonial";
-import Footer from "../components/Footer/Footer";
+import Lifeat from "../components/Lifeat/Lifeat";
+// import Footer from "../components/Footer/Footer";
 
 const HomePage = () => {
   return (
@@ -22,6 +23,7 @@ const HomePage = () => {
       <Service />
       <Industry />
       <Technos />
+      <Lifeat/>
       <Testimonial />
 
       <div className="fixed w-[50px] h-[50px] bg-[#585965] bottom-3 flex items-center justify-center left-4 rounded-full">

@@ -16,7 +16,7 @@ import WORDPRESS from "../../assets/image/wordpress.webp";
 
 // Define an object to map image keys to tag names
 const imageMap = {
-  REACTJS: REACTJS,
+  REACT: REACTJS,
   ANGULAR: ANGULAR,
   FLUTTER: FLUTTER,
   HTML: HTML,
