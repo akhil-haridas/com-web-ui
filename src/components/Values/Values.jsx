@@ -2,34 +2,33 @@ import React, { useEffect, useState } from "react";
 import { TiChevronLeftOutline, TiChevronRightOutline } from "react-icons/ti";
 import Splitting from "splitting";
 
-  const cardData = [
-    {
-      title: "Our Core Competence",
-      content:
-        "Our competence lies in our ability to consistently deliver high-quality products and services to our clients. We have a team of skilled professionals who are experts in their respective fields, and we leverage the latest technology and industry best practices to provide customized solutions that fulfill the particular requirements of each of our clients.",
-    },
-    {
-      title: "Agile Approach",
-      content:
-        "At our company, we follow an agile approach to project management,  which allows us to respond quickly to changing client needs and deliver products and services that exceed expectations. We believe in collaboration, communication, and flexibility, and our agile methodology enables us to deliver projects on time and within budget.",
-    },
-    {
-      title: "Our Commitment",
-      content:
-        "Our commitment to our clients is to always put their needs first and provide them with the best possible solutions. We are committed to delivering exceptional customer service and long-term relationships with our clients based on trust and mutual respect. ",
-    },
-    {
-      title: "Our Operational Procedure",
-      content:
-        "Our process is designed to ensure that we deliver high-quality products and services that meet our clients unique needs. We begin by conducting a thorough analysis of the client’s requirements, followed by a detailed project plan that outlines the timeline, budget, and deliverables.",
-    },
-    {
-      title: "Best Workspace Enviroment",
-      content:
-        "Our company is dedicated to creating a positive and supportive work environment for our employees. We believe that happy employees are more productive and engaged. We offer our employees a variety of benefits and perks, including flexible working hours, professional development opportunities and a supportive culture.",
-    },
-  ];
-  
+const cardData = [
+  {
+    title: "Our Core Competence",
+    content:
+      "Our competence lies in our ability to consistently deliver high-quality products and services to our clients. We have a team of skilled professionals who are experts in their respective fields, and we leverage the latest technology and industry best practices to provide customized solutions that fulfill the particular requirements of each of our clients.",
+  },
+  {
+    title: "Agile Approach",
+    content:
+      "At our company, we follow an agile approach to project management,  which allows us to respond quickly to changing client needs and deliver products and services that exceed expectations. We believe in collaboration, communication, and flexibility, and our agile methodology enables us to deliver projects on time and within budget.",
+  },
+  {
+    title: "Our Commitment",
+    content:
+      "Our commitment to our clients is to always put their needs first and provide them with the best possible solutions. We are committed to delivering exceptional customer service and long-term relationships with our clients based on trust and mutual respect. ",
+  },
+  {
+    title: "Our Operational Procedure",
+    content:
+      "Our process is designed to ensure that we deliver high-quality products and services that meet our clients unique needs. We begin by conducting a thorough analysis of the client’s requirements, followed by a detailed project plan that outlines the timeline, budget, and deliverables.",
+  },
+  {
+    title: "Best Workspace Enviroment",
+    content:
+      "Our company is dedicated to creating a positive and supportive work environment for our employees. We believe that happy employees are more productive and engaged. We offer our employees a variety of benefits and perks, including flexible working hours, professional development opportunities and a supportive culture.",
+  },
+];
 
 const MAX_VISIBILITY = 3;
 
@@ -80,7 +79,7 @@ const Carousel = ({ children }) => {
   );
 };
 
-const Testimonial = () => {
+const Values = () => {
   useEffect(() => {
     Splitting();
   }, []);
@@ -132,4 +131,4 @@ const Testimonial = () => {
   );
 };
 
-export default Testimonial;
+export default Values;
